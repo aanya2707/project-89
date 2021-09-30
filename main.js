@@ -5,5 +5,5 @@ function addUser(){
     localStorage.setItem("Player_1" , player_1);
     localStorage.setItem("Player_2" , player_2);
 
-    window.location="quiz_game_page.html";
+    window.location.replace("quiz_game_page.html");
 }
